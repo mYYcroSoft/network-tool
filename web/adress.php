@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "IP" => $net->getAsString(),
         "Prefix" => $net->getPrefixAsString(),
         "IP validace" => $net->isValid() ? "Ano" : "Ne",
-        "Třída" => $net->getClass(),
+        "IP class" => $net->getClass(),
         "Octet" => $net->getOctet(2),
         "Net(str)" => $net->getAsString(),
         "Net(int)" => $net->getAsInt(),
