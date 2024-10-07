@@ -98,7 +98,8 @@ class AddressIPv4 implements IAddressIPv4
     }
     public function getAsBinaryString(): string
     {
-        return base_convert($this->ip, 10, 16);
+
+        return decbin(ip2long($this->ip));
     }
 
     public  function  isPrivate(): bool

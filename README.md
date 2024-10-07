@@ -25,7 +25,7 @@
 - Octet: 168
 - Net(str): 192.168.0.1
 - Net(int): 3232235521
-- Binary: 12539a1
+- Binary: 11000000101010000000000000000001
 - Private flag: Ano
 - Broadcast adresa: 192.169.255.255
 - Síťová maska: 255.254.0.0
